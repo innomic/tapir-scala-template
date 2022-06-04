@@ -1,0 +1,16 @@
+{
+    "recommendations": [
+        "ms-vscode-remote.remote-wsl",
+        "redvanworkshop.explorer-exclude-vscode-extension",
+        "scala-lang.scala",
+        "scala-lang.scala-snippets",
+        "scalameta.metals",
+        "redhat.vscode-xml",
+        "sabieber.hocon",
+        "editorconfig.editorconfig",
+        "redhat.java"
+    ],
+    "unwantedRecommendations": [
+        "lightbend.vscode-sbt-scala"
+    ]
+}

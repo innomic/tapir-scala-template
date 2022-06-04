@@ -1,0 +1,4 @@
+# Disable ANSI color codes
+-no-colors
+-Dquill.macro.log=false
+-Dquill.macro.log.pretty=true

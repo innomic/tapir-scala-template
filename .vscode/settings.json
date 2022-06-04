@@ -1,0 +1,65 @@
+{
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[scala]": {
+    "editor.defaultFormatter": "scalameta.metals"
+  },
+  "[xml]": {
+    "editor.defaultFormatter": "redhat.vscode-xml"
+  },
+  "editor.formatOnSave": true,
+  "editor.linkedEditing": true,
+  "editor.minimap.enabled": true,
+  "editor.snippetSuggestions": "top",
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 500,
+  "files.associations": {
+    "package.json": "json"
+  },
+  "files.watcherExclude": {
+    "**/.ammonite": true,
+    "**/.bloop": true,
+    "**/.bsp": true,
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/.metals": true,
+    "**/node_modules/**": true,
+    "**/project/project": true,
+    "**/target": true
+  },
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true,
+    "**/.bloop": true,
+    "**/.bsp": true,
+    "**/.metals": true,
+    "**/target": true,
+    "**/project/project": true,
+    "**/metals.sbt": true
+  },
+  "git.enabled": true,
+  "git.countBadge": "off",
+  "git.decorations.enabled": false,
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/venv/**": true,
+    "**/.git/**": true,
+    "**/project": true,
+    "**/target": true,
+    "**/.bloop": true,
+    "**/.metals": true
+  },
+  "explorerExclude.backup": {},
+}
